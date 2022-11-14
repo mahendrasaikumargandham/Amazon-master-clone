@@ -51,3 +51,41 @@
     z-index: 1;
     justify-content: space-evenly;
 }
+.home_row_box {
+    height: 350px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.home_row_box1 {
+    background: #fff;
+    flex: 1;
+    height: 150px;
+    align-items: center;
+}
+.home_row_box1 button {
+    background-color: #cd9042;
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.home_row_box1 h1 {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.home_row_box2 img {
+    height: 230px;
+    margin-top: 20px;
+}
+
+@media(max-width:768px) {
+    .home_product_row {
+        display: flex;
+        flex-direction: column;
+    }
+}
