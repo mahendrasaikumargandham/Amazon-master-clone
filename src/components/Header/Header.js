@@ -18,7 +18,7 @@ function Header() {
         <input
           className="header_searchInput"
           type="text"
-          placeholder="Search Ekart..."
+          placeholder="Search Amazon"
         />
         <SearchIcon className="header_searchIcon" />
       </div>

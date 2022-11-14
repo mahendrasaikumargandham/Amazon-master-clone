@@ -32,6 +32,8 @@
     border: none;
     outline: none;
     background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .header_search .header_searchIcon {
     background: #cd9042;
